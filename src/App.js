@@ -1,5 +1,3 @@
-/* test */
-
 import React, { useState, useEffect } from 'react';
 import IngredientInput from './components/IngredientInput';
 import PieChart from './components/PieChart';  // Pie chart component
