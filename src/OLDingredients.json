@@ -1,0 +1,268 @@
+
+[
+  {
+    "name": "apple",
+    "healthStatus": "Healthy",
+    "notes": "Rich in vitamins and fiber. Good for digestion."
+  },
+  {
+    "name": "banana",
+    "healthStatus": "Healthy",
+    "notes": "High in potassium, good for heart health."
+  },
+  {
+    "name": "orange",
+    "healthStatus": "Healthy",
+    "notes": "Great source of vitamin C, boosts immune system."
+  },
+  {
+    "name": "avocado",
+    "healthStatus": "Healthy",
+    "notes": "High in healthy fats and fiber. Great for heart health."
+  },
+  {
+    "name": "blueberries",
+    "healthStatus": "Healthy",
+    "notes": "Rich in antioxidants, supports brain function."
+  },
+  {
+    "name": "strawberry",
+    "healthStatus": "Healthy",
+    "notes": "Full of vitamin C and antioxidants."
+  },
+  {
+    "name": "carrot",
+    "healthStatus": "Healthy",
+    "notes": "Great source of beta-carotene, supports eye health."
+  },
+  {
+    "name": "spinach",
+    "healthStatus": "Healthy",
+    "notes": "High in iron and vitamins, supports immune health."
+  },
+  {
+    "name": "broccoli",
+    "healthStatus": "Healthy",
+    "notes": "Full of antioxidants and vitamins, supports heart health."
+  },
+  {
+    "name": "sweet potato",
+    "healthStatus": "Healthy",
+    "notes": "High in fiber and vitamins, helps regulate blood sugar."
+  },
+  {
+    "name": "sugar",
+    "healthStatus": "Unhealthy",
+    "notes": "High in calories, can contribute to weight gain."
+  },
+  {
+    "name": "onion",
+    "healthStatus": "Neutral",
+    "notes": "Good source of antioxidants, but may cause digestive issues in some people."
+  },
+  {
+    "name": "garlic",
+    "healthStatus": "Healthy",
+    "notes": "Has antibacterial properties, supports heart health."
+  },
+  {
+    "name": "eggplant",
+    "healthStatus": "Neutral",
+    "notes": "Good source of fiber, but low in essential vitamins."
+  },
+  {
+    "name": "kale",
+    "healthStatus": "Healthy",
+    "notes": "Rich in vitamins, minerals, and antioxidants."
+  },
+  {
+    "name": "chicken breast",
+    "healthStatus": "Healthy",
+    "notes": "High in protein, low in fat, supports muscle growth."
+  },
+  {
+    "name": "salmon",
+    "healthStatus": "Healthy",
+    "notes": "High in omega-3 fatty acids, supports heart health."
+  },
+  {
+    "name": "beef",
+    "healthStatus": "Neutral",
+    "notes": "High in protein and iron, but can be high in fat."
+  },
+  {
+    "name": "olive oil",
+    "healthStatus": "Healthy",
+    "notes": "Contains healthy fats, supports heart health."
+  },
+  {
+    "name": "almonds",
+    "healthStatus": "Healthy",
+    "notes": "Good source of healthy fats, protein, and fiber."
+  },
+  {
+    "name": "peanut butter",
+    "healthStatus": "Neutral",
+    "notes": "High in protein and fat, but also contains sugar and salt."
+  },
+  {
+    "name": "yogurt",
+    "healthStatus": "Healthy",
+    "notes": "Good source of probiotics and calcium."
+  },
+  {
+    "name": "coconut oil",
+    "healthStatus": "Neutral",
+    "notes": "Contains saturated fats, but may have some benefits in moderation."
+  },
+  {
+    "name": "rice",
+    "healthStatus": "Neutral",
+    "notes": "A good energy source but can cause blood sugar spikes."
+  },
+  {
+    "name": "quinoa",
+    "healthStatus": "Healthy",
+    "notes": "High in protein, fiber, and essential nutrients."
+  },
+  {
+    "name": "pasta",
+    "healthStatus": "Neutral",
+    "notes": "Can be part of a healthy diet when eaten in moderation."
+  },
+  {
+    "name": "chickpeas",
+    "healthStatus": "Healthy",
+    "notes": "High in protein and fiber, good for digestion."
+  },
+  {
+    "name": "lentils",
+    "healthStatus": "Healthy",
+    "notes": "Rich in protein and fiber, supports heart health."
+  },
+  {
+    "name": "soybeans",
+    "healthStatus": "Healthy",
+    "notes": "Great source of plant-based protein and healthy fats."
+  },
+  {
+    "name": "cabbage",
+    "healthStatus": "Healthy",
+    "notes": "High in fiber and vitamins, supports digestive health."
+  },
+  {
+    "name": "peas",
+    "healthStatus": "Healthy",
+    "notes": "Good source of plant-based protein and fiber."
+  },
+  {
+    "name": "cauliflower",
+    "healthStatus": "Healthy",
+    "notes": "Rich in fiber and antioxidants, supports immune health."
+  },
+  {
+    "name": "tomato",
+    "healthStatus": "Neutral",
+    "notes": "Good source of vitamins, but contains natural sugar."
+  },
+  {
+    "name": "potato",
+    "healthStatus": "Neutral",
+    "notes": "Starchy vegetable, provides energy but can cause blood sugar spikes."
+  },
+  {
+    "name": "sugar",
+    "healthStatus": "Unhealthy",
+    "notes": "High in calories, can contribute to weight gain."
+  },
+  {
+    "name": "salt",
+    "healthStatus": "Unhealthy",
+    "notes": "Excessive intake can cause high blood pressure and heart problems."
+  },
+  {
+    "name": "apple",
+    "healthStatus": "Healthy",
+    "notes": "Rich in fiber and vitamins."
+  },
+  {
+    "name": "Water",
+    "healthStatus": "Healthy",
+    "notes": "Essential for hydration and overall health."
+  },
+  {
+    "name": "pea protein",
+    "healthStatus": "Healthy",
+    "notes": "A good plant-based protein source with essential amino acids."
+  },
+  {
+    "name": "expeller-pressed canola oil",
+    "healthStatus": "Neutral",
+    "notes": "A cooking oil with moderate health impacts when used in moderation."
+  },
+  {
+    "name": "refined coconut oil",
+    "healthStatus": "Neutral",
+    "notes": "Contains saturated fat; moderation is key."
+  },
+  {
+    "name": "rice protein",
+    "healthStatus": "Healthy",
+    "notes": "A plant-based protein source, often used in vegan protein powders."
+  },
+  {
+    "name": "natural flavors",
+    "healthStatus": "Neutral",
+    "notes": "Flavoring agents derived from natural sources, but may be processed."
+  },
+  {
+    "name": "methylcellulose",
+    "healthStatus": "Neutral",
+    "notes": "A fiber derived from plants, used as a thickener and emulsifier."
+  },
+  {
+    "name": "potato starch",
+    "healthStatus": "Neutral",
+    "notes": "Used as a thickening agent in food; can be high in carbohydrates."
+  },
+  {
+    "name": "apple extract",
+    "healthStatus": "Healthy",
+    "notes": "Contains antioxidants and may support immune function."
+  },
+  {
+    "name": "pomegranate extract",
+    "healthStatus": "Healthy",
+    "notes": "Rich in antioxidants, may help reduce inflammation."
+  },
+  {
+    "name": "potassium salt",
+    "healthStatus": "Neutral",
+    "notes": "A substitute for regular salt with less sodium content."
+  },
+  {
+    "name": "vinegar",
+    "healthStatus": "Healthy",
+    "notes": "May help regulate blood sugar levels and aid digestion."
+  },
+  {
+    "name": "lemon juice concentrate",
+    "healthStatus": "Healthy",
+    "notes": "Rich in Vitamin C, supports immune health."
+  },
+  {
+    "name": "sunflower lecithin",
+    "healthStatus": "Neutral",
+    "notes": "Used as an emulsifier, derived from sunflower seeds."
+  },
+  {
+    "name": "beet juice extract",
+    "healthStatus": "Healthy",
+    "notes": "Contains antioxidants and may help with blood circulation."
+  },
+  {
+    "name": "carrot",
+    "healthStatus": "Healthy",
+    "notes": "High in beta-carotene, supports eye health and immune function."
+  }
+]

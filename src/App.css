@@ -1,0 +1,206 @@
+/* General Styles for the App */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7; /* Light background color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Overall container for the layout */
+.content-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center content */
+  gap: 30px; /* Add space between the pie chart and the ingredient list */
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f6f6f6; /* White background for the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Pie chart and legend container */
+.pie-and-legend-container {
+  display: flex;
+  gap: 30px; /* Space between pie chart and legend */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Pie chart container */
+.pie-chart-container {
+  width: 350px; /* Adjust pie chart width */
+  height: 350px; /* Adjust pie chart height */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Legend for the pie chart */
+.pie-legend {
+  display: flex;
+  flex-direction: column;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.legend-color.healthy {
+  background-color: green;
+}
+
+.legend-color.neutral {
+  background-color: blue;
+}
+
+.legend-color.unhealthy {
+  background-color: red;
+}
+
+.legend-color.unknown {  /* New class for the Unknown color */
+  background-color: grey;
+}
+
+/* Table styling */
+.ingredient-table {
+  width: 100%;  /* Make the table width 100% of its container */
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  text-align: left;
+  border: 2px solid black; /* Black border for the entire table */
+  margin-left: auto;  /* Center the table horizontally */
+  margin-right: auto; /* Center the table horizontally */
+}
+
+.ingredient-table th, .ingredient-table td {
+  padding: 15px;  /* More space between columns */
+  border: 1px solid black;  /* Black border for table rows */
+}
+
+.ingredient-table th {
+  background-color: #007bff;  /* Blue background for table header */
+  color: white;
+  text-align: center;
+}
+
+.large-input {
+  width: 100%;  /* Ensure the input field takes up the full available width */
+  max-width: 800px;  /* Limit the width to a reasonable value */
+  height: 50px;
+  font-size: 1.5rem;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Ingredient extractor (OCR) section */
+.ingredient-extractor-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Title for photo upload */
+.ingredient-extractor-container h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* File input for uploading photo */
+.ingredient-extractor-container input {
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Styled button for uploading photo */
+.ingredient-extractor-container button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ingredient-extractor-container button:hover {
+  background-color: #0056b3;
+}
+
+.ingredient-extractor-container img {
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 300px;
+}
+
+.ingredient-extractor-container p {
+  color: red;
+  font-size: 14px;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;  /* Center-align the title */
+  margin-bottom: 20px;  /* Add some space below the title */
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;  /* Add space below the subtitle */
+  text-align: center;  /* Center-align the subtitle */
+}
+
