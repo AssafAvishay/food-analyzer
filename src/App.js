@@ -39,9 +39,11 @@ function App() {
 
   // Handle analyzing ingredients
   const analyzeIngredients = (ingredientsList) => {
-    const ingredientScores = ingredientsList.map((ingredientName) => {
-      const normalizedIngredientName = ingredientName.toLowerCase().trim();
-      const ingredient = ingredientData.find(item => item.ingredient.toLowerCase().trim() === normalizedIngredientName);
+    // Remove duplicates by converting to Set and back to array
+    const uniqueIngredients = [...new Set(ingredientsList.map(ing => ing.toLowerCase().trim()))];
+    
+    const ingredientScores = uniqueIngredients.map((ingredientName) => {
+      const ingredient = ingredientData.find(item => item.ingredient.toLowerCase().trim() === ingredientName);
 
       if (ingredient) {
         return {
@@ -86,15 +88,43 @@ function App() {
     setScores(sortedScores);
   };
 
+// Handle restart
+const handleRestart = () => {
+  setScores([]);        // Clear scores
+  setIngredients('');   // Clear extracted ingredients
+};
+
+
   return (
     <div className="App">
       <h1>Food Ingredient Analyzer</h1>
 
-      {/* Ingredient Extraction Section */}
-      <IngredientExtractor setIngredients={setIngredients} />
+      {/* Restart Button */}
+      <button 
+        onClick={handleRestart}
+        className="restart-button"
+        style={{
+          position: 'absolute',
+          top: '20px',
+          right: '20px',
+          padding: '10px 20px',
+          backgroundColor: '#4CAF50',
+          color: 'white',
+          border: 'none',
+          borderRadius: '4px',
+          cursor: 'pointer'
+        }}
+      >
+        Start New Analysis
+      </button>
 
-      {/* Ingredient List */}
-      <IngredientInput onSubmit={analyzeIngredients} ingredients={ingredients} />
+      {/* Ingredient Extraction Section */}
+      <IngredientExtractor setIngredients={setIngredients} reset={handleRestart} />
+
+
+    {/* Ingredient List */}
+     <IngredientInput onSubmit={analyzeIngredients} ingredients={ingredients} />
+
       
       <div className="content-container">
         <div className="pie-and-legend-container">
